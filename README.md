@@ -1,6 +1,6 @@
 # playground
 
-> A playground for my nuxt dynamic site
+> A playground for my nuxt-made cssforum 
 
 ## Build Setup
 
