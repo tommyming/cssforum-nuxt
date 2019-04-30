@@ -1,26 +1,61 @@
 <template>
-  <section class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        playground
-      </h1>
-      <h2 class="subtitle">
-        A playground for my nuxt dynamic site
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green"
-          >Documentation</a
-        >
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-          >GitHub</a
-        >
+  <div>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">
+          Home
+        </a>
+
+        <a class="navbar-item">
+          Documentation
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More
+          </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              About
+            </a>
+            <a class="navbar-item">
+              Jobs
+            </a>
+            <a class="navbar-item">
+              Contact
+            </a>
+            <a class="navbar-divider"></a>
+            <a class="navbar-item">
+              Report an issue
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-primary">
+              <strong>Sign up</strong>
+            </a>
+            <a class="button is-light">
+              Log in
+            </a>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
+    <div id="content">
+      <logo />
+      <h1 class="title">
+        Testing Website
+      </h1>
+      <h2 class="subtitle">
+        This is a testing website, still in progress
+      </h2>
+    </div>
+  </div>
 </template>
 
 <script>
